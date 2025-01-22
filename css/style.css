@@ -67,10 +67,10 @@ main p {
 }
 
 #foto1 {
-    background-image: url('../img/wallpaper004.jpg');
-    /* background-size: 100% 100%; */
-    background-attachment: fixed;
+    background-image: url('../img/background001.jpg');
+    background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
 
     margin-left: -20px;
     margin-right: -20px;
@@ -83,13 +83,15 @@ main p {
 
 #foto1 > p {
     color: white;
-    background-color: rgba(0, 0, 0, 0.308);
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.336);
+    background-color: rgba(0, 0, 0, 0.397);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.452);
     margin-top: 25px;
 }
 
 #foto2 {
-    background-image: url('../img/wallpaper006.jpg');
+    background-image: url('../img/background002.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
     background-attachment: fixed;
 
     margin-left: -20px;
@@ -103,7 +105,7 @@ main p {
 
 #foto2 > p{
     color: white;
-    background-color: rgba(0, 0, 0, 0.308);
+    background-color: rgba(0, 0, 0, 0.397);
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.336);
     margin-top: 50px;
 }
